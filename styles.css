@@ -1,11 +1,9 @@
-/* Global reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
@@ -17,7 +15,6 @@ body {
     overflow: hidden;
 }
 
-/* Background overlay for depth effect */
 .background-overlay {
     position: absolute;
     top: 0;
@@ -29,7 +26,6 @@ body {
     z-index: 0;
 }
 
-/* Container for content */
 .container {
     z-index: 1;
     background: rgba(255, 255, 255, 0.1);
@@ -58,7 +54,6 @@ p {
     color: #e0e0e0;
 }
 
-/* Button styling */
 button {
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -83,7 +78,6 @@ button:active {
     box-shadow: 0 5px 10px rgba(255, 75, 43, 0.4);
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
